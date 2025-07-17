@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout << "enter the no:" << endl;
+    cin >> a;
+    if(a%2==0)
+    {
+        cout << "no is even " << endl;
+    }
+    else
+    {
+        cout << "no is odd " << endl;
+    }
+    if(a>0)
+    {
+        cout <<"positive no " << a<< endl;
+        
+    }
+    else if(a<0)
+    {
+        cout << "negative no " << a << endl;
+        
+    }
+    else {
+        cout << "Zero" << endl ;
+    }
+     if(a<10)
+     {
+         cout << " a is single digit " << endl;
+     }
+     else if(a>=10 && a<=99)
+     {
+         cout << "a is double digit " << endl;
+     }
+     else 
+     {
+         cout << "many digits " << endl;
+     }
+     return 0;
+}
