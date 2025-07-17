@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e,f;
+    cout << "enter the no : a" << endl;
+     cin >> a;
+    cout<< "enter the no : b" << endl;
+    cin >> b;
+    c=a+b;
+    cout << "addition of two no : "<< c << endl;
+    d=a-b;
+     cout << "subtraction of two no : "<< d << endl;
+    e=a*b;
+    cout << "multiplication of two no : "<< e << endl;
+    f=a/b;
+    cout << "division  of two no : "<< f << endl;
+    
+    return 0; 
+   
+}
