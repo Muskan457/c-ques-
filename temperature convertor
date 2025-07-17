@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float celisus,fara,kelvin;
+    cout <<"enter the temp in celisus" << endl;
+    cin >> celisus;
+    kelvin = celisus +273;
+    cout << "ur temp in kelvin " << kelvin << endl;
+    fara = (celisus*9/5)+32;
+    cout << "ur temp in fara " << fara << endl;
+    return 0;
+    
+}
