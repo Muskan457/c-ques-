@@ -1,0 +1,18 @@
+
+#include<iostream>
+using namespace std;
+class Name
+{
+    public:
+    string name;
+
+    void displayName()
+    {
+        cout<<"name = "<<"Muskan";
+    }
+};
+int main()
+{
+    Name n;
+    n.displayName();
+}
