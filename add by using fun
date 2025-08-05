@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+
+    namespace Mymath{
+      int add(int a,int b)
+      {
+          return a+b;
+      }
+  }
+   
+int main()
+{
+    int result=Mymath::add(3,4);
+    cout << result;
+}
