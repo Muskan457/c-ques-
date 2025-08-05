@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+class book {
+    public:
+    string title;
+    int page;
+};
+int main()
+{
+    book mybook;
+    mybook.title="the hobby ";
+    mybook.page=78;
+    cout << mybook.title << endl << mybook.page;
+}
