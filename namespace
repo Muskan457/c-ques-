@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+namespace Outer{
+    namespace inner{
+        int x=42;
+    }
+}
+int main()
+{
+    int y=Outer::inner::x;
+    cout << y;
+}
