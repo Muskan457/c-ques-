@@ -1,0 +1,34 @@
+
+
+#include <iostream>
+using namespace std;
+class Grandparent {
+    public:
+    void legacy()
+    {
+        cout << "grandparents " << endl;
+    }
+};
+    class Parent : public Grandparent 
+    {
+        public:
+        void guidance()
+        {
+            cout << "parents.. " << endl;
+        }
+    };
+    class child: public Parent {
+        public:
+        void play ()
+        {
+            cout << "child play" << endl;
+        }
+    };
+    int main ()
+    {
+        child c;
+        c.legacy();
+        c.guidance();
+        c.play();
+        return 0;
+    }
