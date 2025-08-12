@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+namespace lib1{
+	void calculate(){
+		std::cout<<"calculating from lib1"<<endl;
+	}
+}
+namespace lib2{
+	void calculate(){
+		std::cout<<"calculating from lib2";
+	}
+}
+int main()
+{
+	lib1::calculate();
+	lib2::calculate();
+}
