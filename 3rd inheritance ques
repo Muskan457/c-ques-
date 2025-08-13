@@ -1,0 +1,35 @@
+
+
+//     #include <iostream>
+//     using namespace std;
+//     class father {
+//         public:
+//         void discipline()
+//         {
+//             cout <<"dad " << endl;
+            
+//         }
+//     };
+//     class mother{
+//         public :
+//         void care ()
+//         {
+//             cout << "take care" << endl;
+//         }
+//     };
+//     class child :public father,public mother 
+//     {
+//         public:
+//         void learn()
+//         {
+//             cout << "child is learning " << endl;
+//         }
+//     };
+//     int main()
+//     {
+//         child c;
+//         c.learn();
+//         c.care();
+// c.discipline();
+//         return 0;
+//     }
