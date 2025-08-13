@@ -1,0 +1,23 @@
+
+#include <iostream>
+using namespace std;
+class Vechile{
+    public:
+    void start()
+    {
+        cout << "Vechile start" << endl;
+    }
+};
+class car :public Vechile{
+    public:
+    void drive()
+    {
+        cout << "car drive " << endl;
+    }
+};
+int main() {
+    car mycar;
+    mycar.start();
+    mycar.drive();
+    return 0;
+} 
